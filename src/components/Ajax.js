@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Table from './Table'
 
-const url = "http://jsonplaceholder.typicode.com/"
+const url = "https://jsonplaceholder.typicode.com/"
 
 export default function Ajax() {
     let [comments, setComments] = useState([])
